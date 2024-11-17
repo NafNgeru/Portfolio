@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full Width Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    width: 100%;
+}
+
+/* Navigation Bar */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h1, section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#home .image {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#home p {
+    width: 50%;
+    text-align: left;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#about .image {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#about p {
+    width: 50%;
+    text-align: left;
+}
+
+/* Skills Section */
+#skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#skills div {
+    flex: 1 1 30%;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea, #contact button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
